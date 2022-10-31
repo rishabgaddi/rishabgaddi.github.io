@@ -25,12 +25,9 @@ function App() {
           position: "absolute",
           color: "white",
           width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center"
         }}>
-          <AnimatedGradientText>Happy Birthday Señorita!</AnimatedGradientText>
-          <h1 style={{marginLeft: "5px"}}>🎂 ❤️</h1>
+          <AnimatedGradientText>Rishab Gaddi</AnimatedGradientText>
+          {/* https://github.com/rishabgaddi/rishabgaddi.github.io/blob/gh-pages/HappyBirthday-PMS.M4V?raw=true */}
         </div>
     </>
   );
@@ -55,6 +52,8 @@ const AnimatedGradientText = styled.h1`
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  text-align: center;
+  font-size: 28px;
 `;
 
 export default App;
